@@ -1,0 +1,10 @@
+TOKEN = "6282968083:AAGR6ChoExf5QbEJdFVzgNZSDtryrXRvelc"
+
+DATABASE_USER = "root"
+DATABASE_PASSWORD = "avokado"
+DATABASE_HOST = "localhost"
+DATABASE_NAME = "car_db"
+
+# Ссылка на базу данных
+MYSQL_URL = f"mysql+pymysql://{DATABASE_USER}:{DATABASE_PASSWORD}@{DATABASE_HOST}/{DATABASE_NAME}"
+
